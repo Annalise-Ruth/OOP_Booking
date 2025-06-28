@@ -11,15 +11,15 @@ LOCATIONS = ["PUP Main", "CEA", "Hasmin", "iTech", "COC", "PUP LHS", "Condotel"]
 
 # Distance map
 DISTANCE_MATRIX = {
-    ("PUP Main", "CEA"): 0.5, ("PUP Main", "Hasmin"): 1.0, ("PUP Main", "iTech"): 1.5,
-    ("PUP Main", "COC"): 2.0, ("PUP Main", "PUP LHS"): 2.5, ("PUP Main", "Condotel"): 3.0,
-    ("CEA", "Hasmin"): 0.5, ("CEA", "iTech"): 1.0, ("CEA", "COC"): 1.5,
-    ("CEA", "PUP LHS"): 4.0, ("CEA", "Condotel"): 2.5,
-    ("Hasmin", "iTech"): 0.5, ("Hasmin", "COC"): 1.0, ("Hasmin", "PUP LHS"): 1.0,
-    ("Hasmin", "Condotel"): 2.0,
-    ("iTech", "COC"): 0.5, ("iTech", "PUP LHS"): 1.0, ("iTech", "Condotel"): 1.5,
-    ("COC", "PUP LHS"): 0.5, ("COC", "Condotel"): 1.0,
-    ("PUP LHS", "Condotel"): 0.5,
+    ("PUP Main", "CEA"): 2.0, ("PUP Main", "Hasmin"): 1.5, ("PUP Main", "iTech"): 1.2,
+    ("PUP Main", "COC"): 1.0, ("PUP Main", "PUP LHS"): 1.7, ("PUP Main", "Condotel"): 1.5,
+    ("CEA", "Hasmin"): 2.0, ("CEA", "iTech"): 5.0, ("CEA", "COC"): 4.5,
+    ("CEA", "PUP LHS"): 4.0, ("CEA", "Condotel"): 4.5,
+    ("Hasmin", "iTech"): 4.0, ("Hasmin", "COC"): 3.5, ("Hasmin", "PUP LHS"): 0.5,
+    ("Hasmin", "Condotel"): 1.5,
+    ("iTech", "COC"): 0.5, ("iTech", "PUP LHS"): 2.5, ("iTech", "Condotel"): 0.5,
+    ("COC", "PUP LHS"): 2.0, ("COC", "Condotel"): 1.0,
+    ("PUP LHS", "Condotel"): 2.0,
 }
 
 # Vehicle fare adjustments
